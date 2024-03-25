@@ -6,6 +6,9 @@
     "postbuild": "shx cp -r .next/static/ .next/standalone/.next/",
     "start": "node .next/standalone/server.js"
   },
+  "engines": {
+    "node": ">=20.11.0"
+  },
   "dependencies": {
     "@azure/msal-browser": "^3.11.0",
     "@azure/msal-react": "^2.0.13",
