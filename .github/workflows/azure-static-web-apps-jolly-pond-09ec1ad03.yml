@@ -43,6 +43,7 @@ jobs:
           NEXT_PUBLIC_AZURE_AD_TENANT: ${{ secrets.NEXT_PUBLIC_AZURE_AD_TENANT }}
           NEXT_PUBLIC_AZURE_AD_AUDIENCE: ${{ secrets.NEXT_PUBLIC_AZURE_AD_AUDIENCE }}
           NEXT_PUBLIC_BASE_URL: ${{ secrets.NEXT_PUBLIC_BASE_URL }}
+          NEXT_PUBLIC_AZURE_AD_SIGNUP_FLOW: ${{ secrets.NEXT_PUBLIC_AZURE_AD_SIGNUP_FLOW }}
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
     runs-on: ubuntu-latest
