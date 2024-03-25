@@ -1,5 +1,10 @@
 import SampleComponent from "../components/SampleComponent";
+import EnvVariablesDisplay from '../components/EnvVariablesDisplay';
 
 export default function Home() {
-  return <SampleComponent title="Index Page" linkTo="/other" />;
+  return (
+  <>
+  <EnvVariablesDisplay />
+  <SampleComponent title="Index Page" linkTo="/other" />
+  </>);
 }
