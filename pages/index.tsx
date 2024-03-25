@@ -6,6 +6,6 @@ export default function Home() {
   <>
   <EnvVariablesDisplay />
   <SampleComponent title="Index Page" linkTo="/other" /> 
-  <p>test with repository secrets on github..coming through</p>
+  <p>fixed tenant</p>
   </>);
 }
