@@ -7,7 +7,7 @@
     "start": "node .next/standalone/server.js"
   },
   "engines": {
-    "node": ">=18.17.1"
+    "node": "18.17.1"
   },
   "dependencies": {
     "@azure/msal-browser": "^3.11.0",
